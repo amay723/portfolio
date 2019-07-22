@@ -1,0 +1,13 @@
+.App {
+  min-height: 100vh;
+  height: fit-content;
+  background-color: #333;
+  text-align: center;
+  color: white;
+}
+
+/* Each sub-page width constraints */
+.App-contents {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
