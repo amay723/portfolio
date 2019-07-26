@@ -120,9 +120,9 @@ class Mastermind extends Component {
 
     }
 
-    // componentDidMount() {
-    //
-    // }
+    componentDidMount() {
+        document.title = 'Mastermind';
+    }
 
     addRow(newFeedback) {
         let newRows = this.state.mastermindArray.slice();

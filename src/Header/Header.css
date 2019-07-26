@@ -41,7 +41,7 @@
     color: black;
 }
 
-.social-links {
+.social-links a {
     /*flex-direction: column;*/
     justify-content: space-between;
 }

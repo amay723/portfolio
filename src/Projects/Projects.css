@@ -1,26 +1,32 @@
+.projects-container {
+    /*text-align: center;*/
+}
+
 .App-projects {
-    width: 35vw;
-    height: 15vh;
+    width: 40vw;
+    min-height: 20vh;
     padding-bottom: 15px;
     padding-left: 15px;
     margin-bottom: 25px;
     background-color: cadetblue;
     border-radius: 10px;
+
+    display: inline-block;
+}
+
+.App-projects h4 {
+    margin-top: 0;
 }
 
 .App-projects img {
-    max-height: 75%;
+    max-height: 125px;
+    max-width: 125px;
     float: left;
     display: flex;
     vertical-align: center;
 }
 
-/*.App-projects:not(.App-projects p) {*/
-/*    display: flex;*/
-/*    justify-content: space-around;*/
-/*}*/
-
-.App-projects svg {
+.App-projects a {
     max-height: 25%;
-    /*display: block;*/
+    justify-self: center;
 }

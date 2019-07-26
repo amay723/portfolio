@@ -5,6 +5,9 @@ import './Contact.css'
 const FormDescriptionMaxLength = 500;
 
 function Contact() {
+
+    document.title = 'Contact Me';
+
     return (
         <div className="App-about">
 

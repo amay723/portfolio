@@ -1,17 +1,19 @@
 import React from "react";
 
 import './Tools.css'
-import {Link} from "react-router-dom";
-
+// import {Link} from "react-router-dom";
 
 function Tools() {
+
+    document.title = 'Tools';
+
     return (
         <div>
             <h2>My Tools</h2>
 
             <h4>Planned Releases</h4>
             <ul>
-                <li>Cryptography</li>
+                <li>Cryptography (decryption and encryption)</li>
                 <ul>
                     <li>Vigenere Cipher</li>
                     <li>Other Cipher</li>

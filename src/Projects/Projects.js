@@ -26,8 +26,11 @@ const proj = [
 ];
 
 function Projects() {
+
+    document.title = 'Projects';
+
     return (
-        <div>
+        <div className="projects-container">
             <h3>My Projects (WIP)</h3>
 
             {

@@ -9,7 +9,7 @@ const activeTabStyle = {
    color: 'black'
 };
 
-function Header({ match }) {
+function Header() {
 
 
     return (
@@ -17,8 +17,8 @@ function Header({ match }) {
             <h3>Adam May - Portfolio</h3>
 
             <div className="social-links">
-                <a target="_blank" href="https://www.linkedin.com/in/adam-may-66637611a/">
-                    <img src={require('./images/LinkedIn.ico')} height="32"/>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/adam-may-66637611a/">
+                    <img src={require('./images/LinkedIn.ico')} alt="LinkedIn" height="32"/>
                 </a>
                 <a target="blank" href="https://github.com/amay723/">
                     <svg className="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" version="1.1" width="32"

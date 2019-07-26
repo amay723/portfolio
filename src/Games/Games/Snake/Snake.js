@@ -84,6 +84,9 @@ class SnakeGame extends React.Component {
     }
 
     componentDidMount() {
+
+        document.title = 'Snake';
+
         // Auto Scroll to put game in view of page
         window.scrollTo(0,document.body.scrollHeight);
     }

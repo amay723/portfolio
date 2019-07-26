@@ -1,5 +1,8 @@
 .App {
   min-height: 100vh;
+  /*min-width: 100vw;*/
+  /*max-width: 90vw;*/
+  width: 100vw;
   height: fit-content;
   background-color: #333;
   text-align: center;

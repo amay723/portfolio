@@ -5,6 +5,9 @@ import {Link} from "react-router-dom";
 
 
 function Games() {
+
+    document.title = 'Games';
+
     return (
         <div>
             <h2>My Games</h2>
