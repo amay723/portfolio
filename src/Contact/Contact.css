@@ -6,9 +6,26 @@
     padding-top: 30px;
 }
 
-.form-element {
+.form-element, .App-about-contact-description {
     width: 15vw;
     margin-bottom: 10px;
+
+    border-width: 0;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: rosybrown;
+    padding-left: 10px;
+    color: antiquewhite;
+}
+
+::placeholder {
+    color: antiquewhite;
+    opacity: .75;
+}
+
+.form-element {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .App-about-contact-description {
@@ -16,6 +33,7 @@
     height: 30vh;
     font-size: 12pt;
     resize: none;
+    padding-top: 5px;
 }
 
 .App-about-contact-form-counter {
@@ -27,6 +45,19 @@
 
 .form-submit-button {
     margin-bottom: 5px;
+
+    background-color: darkgreen; /* Green */
+    border: none;
+    color: antiquewhite;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.form-submit-button:hover {
+    background-color: darkolivegreen;
 }
 
 .form-submitted {

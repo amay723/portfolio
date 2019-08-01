@@ -23,7 +23,7 @@ function Home() {
     return (
         <div>
             <h3>My Home</h3>
-            <p>I am a {calculateAge()} years old. I graduated from Sonoma State University in Spring, 2019 with a B.S.
+            <p>I am {calculateAge()} years old. I graduated from Sonoma State University in Spring, 2019 with a B.S.
                 in Computer Science and a Minor in Mathematics.
             </p>
             <p>

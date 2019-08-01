@@ -20,13 +20,13 @@ function Contact() {
                   target="hiddenFrame"
             >
 
-                Name: <input className="form-element" type="text" name="name" placeholder="Name" maxLength={20} required/><br />
-                Email: <input className="form-element" type="email" name="email" placeholder="Email" maxLength={20} required/><br />
+                <input className="form-element" type="text" name="name" placeholder="Your Name" maxLength={20} required/><br />
+                <input className="form-element" type="email" name="email" placeholder="Email Address" maxLength={20} required/><br />
 
                 <textarea
                     className="App-about-contact-description"
                     name="description"
-                    placeholder="Description"
+                    placeholder="Message"
                     maxLength={FormDescriptionMaxLength}
                     onKeyUp={textAreaCounter}
                     required
@@ -69,7 +69,11 @@ function submitForm(event) {
     textAreaCounter();
 
     // Display a "Sent" message above button
-    document.getElementById("submitted").style.display = "block";
+    // document.getElementById("submitted").style.display = "block";
+
+    // Disable submit button
+    // document.getElementsByClassName("form-submit-button")[0].disabled = true;
+    // document.getElementsByClassName("form-submit-button")[0].style.backgroundColor = "darkkhaki";
 }
 
 export default Contact;

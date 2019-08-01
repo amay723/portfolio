@@ -1,7 +1,7 @@
 import React from "react";
 
 import './Tools.css'
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function Tools() {
 
@@ -13,6 +13,7 @@ function Tools() {
 
             <h4>Planned Releases</h4>
             <ul>
+                <Link className="tool-link" to="/tools/contact"><li>Contact Me Form (the one used on this site)</li></Link>
                 <li>Cryptography (decryption and encryption)</li>
                 <ul>
                     <li>Vigenere Cipher</li>
